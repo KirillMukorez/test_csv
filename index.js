@@ -13,5 +13,6 @@ export default function solution(content){
     return { ...acc, [passenger[12]] : count}
   }, {})
   console.log(`Ports: ${JSON.stringify(ports)}`)
+  console.log("MishaLOh")
   // END
 }
