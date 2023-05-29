@@ -19,4 +19,6 @@ export default function solution(content){
   const percenOfSurvived = Math.round(100 * survived.length / data.length)
 
   console.log(`Percantage of survived: male - ${percenOfSurvived}`);
+  const names = data.map((el) => el[3]).filter((name) => name.charAt(0) === 'A')
+  console.log(`Names with A: ${names}`)
 }
